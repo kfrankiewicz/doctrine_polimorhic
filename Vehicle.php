@@ -61,24 +61,6 @@ class Vehicle
     }
 
     /**
-     * @return mixed
-     */
-    public function getOwnerType()
-    {
-        return $this->ownerType;
-    }
-
-    /**
-     * @param mixed $ownerType
-     * @return Vehicle
-     */
-    public function setOwnerType($ownerType)
-    {
-        $this->ownerType = $ownerType;
-        return $this;
-    }
-
-    /**
      * @param VehicleOwnerInterface $owner
      * @return Vehicle
      */
